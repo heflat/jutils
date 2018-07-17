@@ -1,7 +1,7 @@
-package com.heflat.utils.util;
+package com.heflat.jutils.util;
 
-import com.heflat.utils.enums.CodeEnum;
-import com.heflat.utils.exception.UtilException;
+import com.heflat.jutils.enums.CodeEnum;
+import com.heflat.jutils.exception.UtilException;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.UUID;

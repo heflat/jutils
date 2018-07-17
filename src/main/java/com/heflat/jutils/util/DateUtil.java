@@ -1,4 +1,4 @@
-package com.heflat.utils.util;
+package com.heflat.jutils.util;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;

@@ -1,4 +1,4 @@
-package com.heflat.utils.util;
+package com.heflat.jutils.util;
 
 import java.math.BigDecimal;
 

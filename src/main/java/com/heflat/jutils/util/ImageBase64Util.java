@@ -1,4 +1,4 @@
-package com.heflat.utils.util;
+package com.heflat.jutils.util;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;

@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.heflat</groupId>
-    <artifactId>utils</artifactId>
+    <artifactId>jutils</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>utils Maven Webapp</name>
-    <url>https://github.com/heflat/utils</url>
+    <name>jutils Maven Webapp</name>
+    <url>https://github.com/heflat/jutils</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -85,6 +85,6 @@
     </dependencies>
 
     <build>
-        <finalName>utils</finalName>
+        <finalName>jutils</finalName>
     </build>
 </project>

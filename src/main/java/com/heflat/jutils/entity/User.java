@@ -1,4 +1,4 @@
-package com.heflat.utils.entity;
+package com.heflat.jutils.entity;
 
 import lombok.*;
 

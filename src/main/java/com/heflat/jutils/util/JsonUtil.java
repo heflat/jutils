@@ -1,4 +1,4 @@
-package com.heflat.utils.util;
+package com.heflat.jutils.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

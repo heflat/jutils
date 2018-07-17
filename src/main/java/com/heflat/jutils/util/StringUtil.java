@@ -1,4 +1,4 @@
-package com.heflat.utils.util;
+package com.heflat.jutils.util;
 
 import org.apache.commons.lang3.StringUtils;
 

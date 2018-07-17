@@ -1,6 +1,6 @@
-package com.heflat.utils.exception;
+package com.heflat.jutils.exception;
 
-import com.heflat.utils.enums.CodeEnum;
+import com.heflat.jutils.enums.CodeEnum;
 import lombok.Getter;
 
 /**

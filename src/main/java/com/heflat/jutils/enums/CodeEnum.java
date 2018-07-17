@@ -1,4 +1,4 @@
-package com.heflat.utils.enums;
+package com.heflat.jutils.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
