@@ -10,16 +10,16 @@ import lombok.Getter;
  * @date 2018-07-17 14:03
  */
 @Getter
-public class UtilException extends RuntimeException {
+public class JUtilsException extends RuntimeException {
 
     private Integer code;
 
-    public UtilException(CodeEnum codeEnum) {
+    public JUtilsException(CodeEnum codeEnum) {
         super(codeEnum.getMessage());
         this.code = codeEnum.getCode();
     }
 
-    public UtilException(String message, Integer code) {
+    public JUtilsException(String message, Integer code) {
         super(message);
         this.code = code;
     }

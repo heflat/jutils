@@ -1,7 +1,7 @@
 package com.heflat.jutils.util;
 
 import com.heflat.jutils.enums.CodeEnum;
-import com.heflat.jutils.exception.UtilException;
+import com.heflat.jutils.exception.JUtilsException;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.UUID;
@@ -45,7 +45,7 @@ public class GenerateUtil {
     public static String randomNumber(int length) {
         if (length < 1 || length > RANDOM_NUMBER_LENGTH) {
             log.error("【randomNumber】参数错误，length={}，参数范围应为 1 ~ 10", length);
-            throw new UtilException(CodeEnum.PARAM_ERROR);
+            throw new JUtilsException(CodeEnum.PARAM_ERROR);
         }
 
         int number = (int) ((Math.random() * 9 + 1) * Math.pow(10, length - 1));
