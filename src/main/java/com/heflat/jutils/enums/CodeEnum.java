@@ -14,6 +14,8 @@ import lombok.Getter;
 public enum CodeEnum {
 
     PARAM_ERROR(10, "参数错误"),
+
+    READ_PROPERTIES_FILE_ERROR(20, "读取配置文件错误"),
     ;
 
     private Integer code;
