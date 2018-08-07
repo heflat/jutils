@@ -8,6 +8,10 @@ package com.heflat.jutils.common;
  */
 public class Const {
 
+    /** 字符集编码 */
+    public static final String CHARACTER_UTF8 = "UTF-8";
+
+
     /** 服务器邮箱账号 */
     public static final String SERVER_MAIL_USERNAME = "heflat@163.com";
 
