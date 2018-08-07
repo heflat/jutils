@@ -16,10 +16,11 @@ public enum CodeEnum {
     PARAM_ERROR(10, "参数错误"),
 
     READ_PROPERTIES_FILE_ERROR(20, "读取配置文件错误"),
+
+    SEND_MAIL_ERROR(40, "发送邮件错误"),
     ;
 
     private Integer code;
 
     private String message;
-    ;
 }
